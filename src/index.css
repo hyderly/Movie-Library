@@ -12,6 +12,8 @@ code {
     monospace;
 }
 
-/* .App {
-  height: 100vh;
-} */
+.movie-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

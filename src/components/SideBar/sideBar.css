@@ -40,14 +40,34 @@
 
 .side-bar-list p {
   margin-bottom: 10px;
-  border: 1px solid transparent;
-  padding: 5px 10px;
-  border-radius: 5px;
+
   width: 70%;
   transition: 0.1s all ease-in;
 }
 
-.side-bar-list p:hover {
+.display-none {
+  margin-left: 100%;
+  opacity: 0;
+}
+
+.movie-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.movie-name:hover {
+  border: 1px solid #222;
+  cursor: pointer;
+}
+
+.movie-name img {
+  width: 20px;
+}
+
+.active-link {
   border: 1px solid #222;
   cursor: pointer;
 }
@@ -68,9 +88,4 @@
   .side-bar {
     width: 25vw;
   }
-}
-
-.display-none {
-  margin-left: 100%;
-  opacity: 0;
 }

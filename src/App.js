@@ -1,9 +1,12 @@
 import SideBar from "./components/SideBar/SideBar";
 
+import MovieBody from "./Pages/MovieBody/MovieBody";
+
 function App() {
   return (
-    <div>
+    <div className="movie-main">
       <SideBar />
+      <MovieBody />
     </div>
   );
 }
